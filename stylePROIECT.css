@@ -1,0 +1,445 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: optima, sans-serif;
+	box-sizing: border-box;
+}
+header{
+	background: url("aurora2.jpg");
+	backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+	text-align: center;
+	font-size: 25px;
+	height: 120px;
+	padding: 30px;
+	width: 1000px;
+	
+    margin-left: 170px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+	position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+}
+@keyframes example {
+  0%   { top:-200px;}
+  100%  {  top:0px;}
+}
+body{
+	
+	background: linear-gradient(to right , #434acb  , #18b0a7, #5c0ba2  );
+	overflow-x: hidden;
+}
+#meniu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#meniucontent{
+    padding: 30px;
+    border-radius: 10px;
+	width: 450px;
+	height: 500px;
+	transition: left 1s;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.5); 
+    box-shadow: 0 20px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.titlumeniu{
+	display: flex;
+	align-items: center;
+	margin-left: 130px;
+	font-size: 25px;
+}
+#meniucontent a{
+	padding: 8px;
+    margin-top: 40px;
+	display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 25px;
+	font-weight: bold;
+	
+}
+#meniucontent a:hover{
+	color: blue;
+	font-size: 35px;
+}
+#meniu, #meniucontent {
+    z-index: 2; 
+}
+
+#imgmenu{
+	width: 50px;
+	height: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	overflow: visible;
+	animation: 2s;
+    border-radius: 10px;
+	position: absolute;
+}
+#imgmenu:hover{
+	width: 60px;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+}
+.textsiimg1{
+    display: flex;
+	margin-top: 20px;
+	position: relative;
+    animation: numar 2s;
+    animation-fill-mode: forwards;
+}
+.textsiimg1 img{
+	width: 100px;
+	height: auto;
+	border-radius:10px;
+}
+.div1{
+	display: flex;
+	margin-top: 20px;
+	position: relative;
+    animation: numar 2s;
+    animation-fill-mode: forwards;
+}
+ #div1 {animation-timing-function: ease;}
+@keyframes numar{
+	from{ left: 10px;opacity: 0.1;display: none;}
+	to{left: 375px;opacity: 1.0;display: flex;}
+
+}
+	
+.cinesunteu{
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	border-radius: 10px;
+	width: 550px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	font-size: 15px;
+	
+}
+.hobby{
+	
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	width: 550px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+.despremine{
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	border-radius: 10px;
+	width: 550px;
+	height: auto;
+	padding: 20px;
+	margin: 20px;
+	font-size: 15px;
+	margin-bottom: 100px;
+}
+ 
+footer{
+    background: #343434;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.footer-content{
+    width: 33.3%;
+}
+h3{
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+    
+ 
+.footer-content ul{
+    text-align: center;
+}
+.list{
+    padding: 0;
+}
+.list li{
+    width: auto;
+    text-align: center;
+    list-style-type:none;
+    padding: 7px;
+    position: relative;
+}
+.socials{
+    width: 50px;
+    border-radius: 10px;
+    height: auto;
+}	
+
+    
+   
+.social-icons li{
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+    
+ a{
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
+   
+    
+    
+    
+.comuna{
+	top: 100px;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+    margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 50px;
+	padding: 10px;
+	font-size:20px;
+	
+}
+.comuna2{
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 20px;
+}
+.imgtomestii{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.imgtomestii img{
+	border-radius: 10px;
+	margin:20px;
+	width: 200px;
+	height: 150px;
+	border: 5px solid #333;
+}
+.imgtomestii img:hover{
+	width: 300px;
+	height: 250px;
+	border: 5px solid #333;
+}
+.scoalatitlu{
+	top: 100px;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+    margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 50px;
+	padding: 10px;
+	font-size: 20px;
+}
+.scoala {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.scoala  img{
+	border-radius: 10px;
+	margin:20px;
+	width: 200px;
+	height: 150px;
+	border: 5px solid #333;
+}
+.scoala img:hover{
+	width: 300px;
+	height: 250px;
+	border: 5px solid #333;
+}
+.scoala p{
+	font-size: 20px;
+}
+.liceutitlu{
+	top: 100px;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+    margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 50px;
+	padding: 10px;
+	font-size: 20px;
+}
+.liceu{
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.liceu img{
+	border-radius: 10px;
+	margin:20px;
+	width: 200px;
+	height: 150px;
+	border: 5px solid #333;
+}
+.liceu img:hover{
+	width: 300px;
+	height: 250px;
+	border: 5px solid #333;
+}
+.liceu p{
+	font-size: 20px;
+}
+.chenaropinie{
+	position: fixed;
+    background: linear-gradient(11deg, rgba(144,120,255,1) 25%, rgba(166,255,253,1) 56%);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    border-radius: 20px;
+	font-size: 20px;
+	display: block;
+	padding: 20px;
+	height: 550px;
+	margin-top: 50px;
+	margin-left: 450px;
+	margin-right:600px;
+	border-radius: 10px;
+	width: 450px;
+	animation-name: example1;
+    animation-duration: 2s;
+}
+@keyframes example1 {
+  0%   { margin-top:-50px;opacity: 0.1}
+  100%  {  margin-top:50px;opacity:1.0}
+}
+.opinietitlu{
+	margin-left:120px;
+	margin-bottom: 20px;
+}
+#imput{
+	height: 45px;
+	width: 390px;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+#imput:hover{
+	height: 50px;
+	width: 397px;
+	opacity: 1.0;
+}
+.chenaropinie button{
+	font-size: 23px;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	border-radius: 10px;
+	width:390px;
+	height: 50px;
+	opacity: 0.7;
+	transition: height 0.5s;
+	margin-top: 30px;
+}
+.chenaropinie button:hover{
+	font-size: 30px;
+	height: 55px;
+	width:400px;
+	opacity: 1.2;
+	background: linear-gradient(11deg, rgba(67,178,255,1) 25%, rgba(50,71,255,1) 78%);
+}
+#multopinie{
+	display: none;
+	position: fixed;;
+	align-items: center;
+	justify-content: center;
+	background:  linear-gradient(to right , #b7baff, #d4f5f4);;
+	margin-top: 200px;
+	margin-left: 350px;
+	margin-right:600px;
+	border-radius: 10px;
+	width: 650px;
+	font-size: 25px;
+	
+}
+.numelee{
+    background:  linear-gradient(to right , #b7baff, #d4f5f4);
+    width: 80px;
+	border-radius: 10px;
+} 	
+.opiniaa{
+	background:  linear-gradient(to right , #b7baff, #d4f5f4);
+    width: 80px;
+	border-radius: 10px;
+}
+.notaa{
+	background:  linear-gradient(to right , #b7baff, #d4f5f4);
+    width: 80px;
+	border-radius: 10px;
+}
+.titluf{
+	margin-top: 30px;
+	margin-left: 520px;
+	padding: 5px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+	border-radius: 20px;
+	
+}
+main{
+	width: 500px;
+	height: 500px;
+	box-shadow: 0px 0px 0px grey;
+	margin: auto;
+	margin-top: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.slide{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transition: 1s;
+	object-fit: contain;
+}
+.nav{
+	text-align: center;
+	margin-top: 15px;
+}
+.nav button{
+	width: 100px;
+	font-size: 25px;
+	padding: 5px;
+	border-radius: 10px;
+	background: linear-gradient(to right , #b7baff, #d4f5f4);
+}
